@@ -1,27 +1,26 @@
 # Algebraic-and-Transcendental-Equations-Calculator
 
-## **Описание**
-Простой консольный калькулятор для решения алгебраических и трансцендентных уравнений с одной неизвестной. Использует _метод деления пополам_ и _метод хорд и касчательных_.
+A simple console calculator for solving algebraic and transcendental equations with one unknown. Uses the _bisection method_ and the _chord and tangent method_.
 
-## Использование
-Функции принимаемые программой описаны [здесь](https://ncalc.github.io/ncalc/articles/functions.html).
+## Usage
+The functions accepted by the program are described [here](https://ncalc.github.io/ncalc/articles/functions.html).
 
-Переменная обозначается как X
+The variable is designated as X
 
-Рабта с программой:
+Working with the program:
 
-1. Введите выражение.
-2. Введите первое число интервала.
-3. Введите второе число интервала.
+1. Enter the expression.
+2. Enter the first number of the interval.
+3. Enter the second number of the interval.
 
-Разделителем дробного числа в выражении является точка, а у интервала - запятая.
+The separator of the fractional number in the expression is a period, and for the interval - a comma.
 
-## Пример использования
-Введите выражение:
+## Example of use
+Enter the expression:
 ```
 Pow(X, 7) - 2 * Pow(X, 6) + 7 * X - 8
 ```
-Введите интервал
+Enter the interval
 ```
 0
 2
